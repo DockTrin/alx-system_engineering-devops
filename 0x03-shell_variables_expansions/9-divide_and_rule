@@ -1,2 +1,2 @@
 #!/bin/bash
-export POWER=42784 \n export DIVIDE=32
+echo -e "$((POWER / DIVIDE))\n$((POWER * DIVIDE))"
