@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "RESULT"=$((128 + TRUEKNOWLEDGE_VALUE))
+echo -e "128\n$((128 + ${TRUEKNOWLEDGE:-89}))"
